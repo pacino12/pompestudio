@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ayodeji Page</title>
+  <link rel="stylesheet" href="index.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+  <header class="header">
+    <a href="#" class="logo"><img src="image/Pompeylogo.jpeg" alt="Pompey"></a>
+    <nav class="navbar">
+      <ul>
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#about">Gallery</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <i class='bx bx-menu' id="menu" onclick="screenMenu()" ></i>
+  <button id="close" onclick="closeMenu()">X</button>
+
+    <div id="menuslide">
+      <ul>
+        <li><a href="#home" class="active" id>Home</a></li>
+        <li><a href="#about">Gallery</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </header>
+
+  
+
+  <section class="home" id="home">
+    <div class="home-content">
+      <h1>Hey, I'm POMPEY</h1>
+      <h3>Customer Service Specialist</h3>
+      <p>I am a model, event planner, social media manager, photographer, and also a customer service representative.</p>
+      <p>CEO of POMPEY STUDIO</p>
+    </div>
+  </section>
+
+  <section id="about">
+    <header>
+      <h3>My <span>Gallery</span></h3>
+    </header>
+    <div class="containee">
+      <div><a href="image/b.jpeg" target="_blank"><img src="image/b.jpeg" alt="Photo"></a></div>
+      <div><a href="image/c.jpeg" target="_blank"><img src="image/c.jpeg" alt="Photo"></a></div>
+      <div><a href="image/a.jpeg" target="_blank"><img src="image/a.jpeg" alt="Photo"></a></div>
+      <div><a href="image/d.jpeg" target="_blank"><img src="image/d.jpeg" alt="Photo"></a></div>
+    </div>
+  </section>
+
+  <section id="services" class="inside">
+    <div class="container">
+      <h1 class="sub-title">My Services</h1>
+      <div class="services-list">
+        <div>
+          <h2>Customer Service Specialist</h2>
+        </div>
+        <div>
+          <h2>IT Support Specialist</h2>
+        </div>
+        <div>
+          <h2>Event Planner</h2>
+        </div>
+        <div>
+          <h2>Photographer</h2>
+        </div>
+        <div>
+          <h2>Model</h2>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div id="contact">
+    <div>
+      <form action="https://api.web3forms.com/submit" method="POST">
+        <h3>GET IN TOUCH</h3>
+        <input type="hidden" name="access_key" value="6d923643-0c2e-4598-b4c2-472603b92c1b">
+        <input type="text" id="name" name="Name" placeholder="Your Name" required>
+        <input type="email" id="email" name="Email" placeholder="Email Id" required>
+        <input type="text" id="phone" name="Phone number" placeholder="Phone Number" required>
+        <textarea id="message" rows="4" name="Message" placeholder="Request my CV"></textarea>
+        <button type="submit" class="btn-box">Send</button>
+      </form>
+    </div>
+
+    <div class="nomer">
+      <h3><i class='bx bx-phone-call'></i> Contact: +48880287716</h3>
+      <div class="home-sci">
+        <a target="_blank" href="http://linkedin.com/in/ayodeji-durodola"><i class='bx bxl-linkedin-square'></i></a>
+        <a target="_blank" href="https://wa.link/0lc61y"><i class='bx bxl-whatsapp'></i></a>
+        <a target="_blank" href="https://www.facebook.com/Pompeyzeed"><i class='bx bxl-facebook'></i></a>
+        <a target="_blank" href="https://www.instagram.com/pompeyzeed?igsh=dWQwY2p2NXEwa2E5&utm_source=qr"><i class='bx bxl-instagram'></i></a>
+        <a target="_blank" href="https://x.com/pompey_zeed"><i class='bx bxl-twitter'></i></a>
+      </div>
+    </div>
+  </div>
+
+  <p class="copy-right"><i class='bx bx-copyright'></i> <cite>pacifique @ll right reserved</cite></p>
+  
+  <script src="index.js"></script>
+</body>
+</html>
